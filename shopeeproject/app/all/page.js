@@ -20,7 +20,6 @@ export default function All() {
       headers: { "Content-Type": "application/json" },
     })
       .then((res) =>
-        // console.log("res", res);
         res.json()
       )
       .then((response) => setData(response.result))

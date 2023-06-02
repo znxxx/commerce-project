@@ -16,6 +16,15 @@
   }
 }
 
-.red {
-  color:red
+.container-wrapper {
+  min-width: 1200px;
+}
+.navbar-wrapper {
+  height: 2.125rem;
+  z-index: 400;
+  background: transparent;
+  position: relative;
+}
+.container-wrapper {
+  min-width: 1200px;
 }

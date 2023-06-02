@@ -41,7 +41,7 @@ export default function Home() {
   }
   let styleTitle = { color: "red" };
   return (
-    <div className="w-full bg-[green]">
+    <div>
       <div className="red">
         User{" "}
         <input
